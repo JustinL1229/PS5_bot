@@ -19,7 +19,7 @@ while restart = True:
         for i in driver.find_elements_by_class_name('sony-text-body-1'):
             classes.append(i.text)
 
-    client.messages.create(to="+12073182885", 
+    client.messages.create(to="+(removed for privacy reasons)", 
                         from_="+15165888077", 
                         body="https://direct.playstation.com/en-us/consoles/console/playstation5-console.3005816")
     
